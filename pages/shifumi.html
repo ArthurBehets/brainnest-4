@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/shifumi.js"></script>
+    <link rel="stylesheet" href="../css/shifumi.css">
+    <script src="https://kit.fontawesome.com/76224e3b6e.js" crossorigin="anonymous"></script>
+    <title>Shifumi</title>
+</head>
+<body>
+    <a href="../index.html">Back to index</a>
+    <h1>Shi Fu Mi</h1>
+    <section class="game">
+        <div class="player">
+            <h2>Player</h2>
+            <h3>Score : <b id="playerScore" class="reset">0</b></h3>
+            <div class="player__choice">
+                <h3>Choose one</h3>
+                <button onclick="playRock()"><i class="fa-solid fa-hand-back-fist"></i></button>
+                <button onclick="playPaper()"><i class="fa-solid fa-hand"></i></button>
+                <button onclick="playScissors()"><i class="fa-solid fa-hand-scissors"></i></button>
+            </div>
+        </div>
+        <div class="computer">
+            <h2>Computer</h2>
+            <h3>Score : <b id="computerScore" class="reset">0</b></h3>
+            <p>The sign of the computer is chosen randomly.</p>
+        </div>
+    </section>
+    <section class="results">
+        <div class="results__animations">
+            <div class="player__action reset" id="player_action">
+
+            </div>
+            <div class="computer__action reset" id="computer_action">
+                
+            </div>
+        </div>
+        <h3 id="result" class="reset"></h3>
+    </section>
+</body>
+</html>
