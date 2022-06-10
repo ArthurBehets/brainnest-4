@@ -1,0 +1,29 @@
+body{
+    margin : 0;
+}
+
+.question{
+    margin-bottom: 20px;
+    width : 40%;
+    word-wrap: break-word;
+}
+
+.last{
+    width : 90%;
+}
+
+.list{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width : 100%;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (max-width: 1130px) {
+    .question{
+        width : 100%;
+    }
+}

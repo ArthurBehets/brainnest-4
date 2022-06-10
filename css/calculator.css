@@ -1,3 +1,7 @@
+.main{
+    transform: scale(1.5);
+}
+
 .calculator{
     background-color: grey;
     width : 15vw;
@@ -7,7 +11,7 @@
     position: relative;
     border-radius: 10px;
     margin-left: 40vw;
-    margin-top: 10vh;
+    margin-top: 20vh;
 }
 
 .calculator::after{
@@ -19,7 +23,7 @@
     position: absolute;
     top : -7px;
     left : -7px;
-    border-radius: 10px;
+    border-radius: 10px 20px 10px 15px;
 }
 
 .schreen{
@@ -30,6 +34,9 @@
     background-color: rgb(30, 80, 30);
     margin-bottom: 30px;
     padding : 0 30px;
+}
+.schreen p {
+    font-weight: bolder;
 }
 
 .operators{
